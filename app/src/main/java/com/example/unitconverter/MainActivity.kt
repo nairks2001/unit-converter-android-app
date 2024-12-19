@@ -68,7 +68,7 @@ fun UnitConverter() {
             Box {
                 Button(onClick = { /*TODO*/ }) {
                     Text(text = "Select Unit 1")
-                    Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
+                    Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Dow")
                 }
                 DropdownMenu(expanded = true, onDismissRequest = {  }) {
                     DropdownMenuItem(
