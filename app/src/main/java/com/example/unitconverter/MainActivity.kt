@@ -48,7 +48,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
 @Composable
 fun UnitConverter() {
     Column(
@@ -68,7 +67,7 @@ fun UnitConverter() {
             Box {
                 Button(onClick = { /*TODO*/ }) {
                     Text(text = "Select Unit 1")
-                    Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Dow")
+                    Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
                 }
                 DropdownMenu(expanded = true, onDismissRequest = {  }) {
                     DropdownMenuItem(
